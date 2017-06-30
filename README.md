@@ -1,6 +1,9 @@
 
 # @99xt/ng2-fileupload
 
+[![npm (scoped)](https://img.shields.io/npm/v/@99xt/ng2-fileupload.svg)]()
+[![license](https://img.shields.io/github/license/99xt/ng2-fileupload.svg)]()
+
 Simpler file upload implementation for angular2 apps.
 
 ## Installation
