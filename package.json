@@ -7,26 +7,6 @@
     "watch": "tsc -p src -w",
     "build": "rm -rf lib && node_modules/typescript/bin/tsc -p src && cp src/*.html lib/"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/thinkholic/ng2-fileupload.git"
-  },
-  "keywords": [
-    "Angular2",
-    "ng2",
-    "FileUpload",
-    "99xt"
-  ],
-  "author": {
-    "name" : "thinkholic",
-    "email" : "mailtokasun@gmail.com"
-  },
-  "contributors": [],
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/thinkholic/ng2-fileupload/issues"
-  },
-  "homepage": "https://github.com/thinkholic/ng2-fileupload#readme",
   "devDependencies": {
     "typescript": "^1.7.5"
   },
@@ -45,5 +25,27 @@
     "rxjs": "^5.4.1",
     "typescript": "^2.3.4",
     "zone.js": "^0.8.12"
-  }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/99xt/ng2-fileupload.git"
+  },
+  "author": {
+    "name" : "thinkholic",
+    "email" : "mailtokasun@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "Angular2",
+    "ng2",
+    "FileUpload",
+    "99xt"
+  ],
+  "bugs": {
+    "url": "https://github.com/99xt/ng2-fileupload/issues"
+  },
+  "homepage": "https://github.com/99xt/ng2-fileupload#readme"
 }
