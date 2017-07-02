@@ -16,7 +16,7 @@ npm install @99xt/ng2-fileupload
 
 example.module.ts
 ```
-import { FileUpload } from 'ng2-fileupload';
+import { FileUpload } from '@99xt/ng2-fileupload';
 
 @NgModule({
   declarations: [
