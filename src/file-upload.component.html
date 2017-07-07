@@ -10,6 +10,7 @@
         name="fileUploadInput"
         type="file"
         class="ng2fup-file-input"
+        (click)="onClickFileInput($event)"
         (change)="onSelectFiles($event)"
         value="{{ files }}"
         [multiple]="multiple"

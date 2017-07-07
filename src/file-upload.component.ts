@@ -38,6 +38,10 @@ export class FileUpload {
     this.status = evt.type;
   }
 
+  onClickFileInput(evt: any) {
+    evt.target.value = null;
+  }
+
   onSelectFiles(evt: any) {
     evt.preventDefault();
     evt.stopPropagation();
