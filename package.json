@@ -1,6 +1,5 @@
 {
   "name": "@99xt/ng2-fileupload",
-  "version": "0.0.2",
   "description": "Simpler file upload implementation for angular2 apps",
   "scripts": {
     "build": "gulp build",
