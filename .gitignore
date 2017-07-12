@@ -1,6 +1,33 @@
+# Node
+node_modules/*
 npm-debug.log
-node_modules
-jspm_packages
+demo/node_modules/
+
+# TypeScript
+src/*.js
+src/*.map
+src/*.d.ts
+
+# JetBrains
 .idea
+.project
+.settings
+.idea/*
+*.iml
+
+# VS Code
+.vscode/*
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Mac
 .DS_Store
-build
+**/.DS_Store
+
+# Ngc generated files
+**/*.ngfactory.ts
+
+# Build files
+dist/*

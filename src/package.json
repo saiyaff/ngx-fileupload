@@ -1,0 +1,26 @@
+{
+  "name": "@99xt/ng2-fileupload",
+  "version": "0.0.2",
+  "description": "Simpler file upload implementation for angular2 apps",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/99xt/ng2-fileupload"
+  },
+  "author": {
+    "name": "thinkholic",
+    "email": "mailtokasun@gmail.com"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "homepage": "https://github.com/99xt/ng2-fileupload#readme",
+  "bugs": {
+    "url": "https://github.com/99xt/ng2-fileupload/issues"
+  },
+  "module": "ng2-fileupload.js",
+  "typings": "ng2-fileupload.d.ts",
+  "peerDependencies": {
+    "@angular/core": "^4.0.0",
+    "rxjs": "^5.1.0",
+    "zone.js": "^0.8.4"
+  }
+}
