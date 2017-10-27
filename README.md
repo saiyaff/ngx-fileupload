@@ -1,4 +1,4 @@
-# NgxFileupload
+# ngx-fileupload
 
 [![npm (scoped)](https://img.shields.io/npm/v/@99xt/ng2-fileupload.svg)](https://www.npmjs.com/package/@99xt/ng2-fileupload)
 [![license](https://img.shields.io/github/license/99xt/ng2-fileupload.svg)](https://github.com/99xt/ng2-fileupload/blob/master/LICENSE)
