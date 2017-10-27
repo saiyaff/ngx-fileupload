@@ -1,0 +1,22 @@
+{
+  "name": "ngx-fileupload",
+  "version": "0.0.3",
+  "description": "Simpler file upload implementation for angular applications",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "thinkholic",
+    "email": "mailtokasun@gmail.com"
+  },
+  "contributors": [{
+    "name": "Saiyaff Farouk",
+    "email": "muhammedsaiyaff@gmail.com"
+  }],
+  "keywords": [],
+  "homepage": "https://github.com/99xt/ng2-fileupload#readme",
+  "bugs": {
+    "url": "https://github.com/99xt/ng2-fileupload/issues"
+  },
+  "license": "MIT"
+}

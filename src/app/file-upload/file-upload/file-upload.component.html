@@ -1,0 +1,18 @@
+<div class="ngxfup-container">
+  <div class="ngxfup-dropzone ngxfup-{{status}}"
+    (dragenter)="onDragEnter($event)"
+    (dragover)="onDragOver($event)"
+    (drop)="onDrop($event)">
+
+      <input
+         #fileUploadInput
+        name="fileUploadInput"
+        type="file"
+        class="ngxfup-file-input"
+        (click)="onClickFileInput($event)"
+        (change)="onSelectFiles($event)"
+        value="{{ files }}"
+        [multiple]="multiple"/>
+
+  </div>
+</div>
