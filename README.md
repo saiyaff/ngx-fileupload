@@ -3,7 +3,7 @@
 [![npm (scoped)](https://img.shields.io/npm/v/@99xt/ng2-fileupload.svg)](https://www.npmjs.com/package/@99xt/ng2-fileupload)
 [![license](https://img.shields.io/github/license/99xt/ng2-fileupload.svg)](https://github.com/99xt/ng2-fileupload/blob/master/LICENSE)
 
-Above npm package details are renamed to be ng2-fileupload to ngx-fileupload with the name change of the npm.
+Above npm package details are to be renamed ng2-fileupload to ngx-fileupload with the name change of the npm package.
 <!-- [![npm (scoped)](https://img.shields.io/npm/v/@99xt/ngx-fileupload.svg)](https://www.npmjs.com/package/@99xt/ngx-fileupload)
 [![license](https://img.shields.io/github/license/99xt/ngx-fileupload.svg)](https://github.com/99xt/ngx-fileupload/blob/master/LICENSE) -->
 
