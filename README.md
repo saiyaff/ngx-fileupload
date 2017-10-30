@@ -1,17 +1,18 @@
-# @99xt/ng2-fileupload
+# ngx-fileupload
 
 [![npm (scoped)](https://img.shields.io/npm/v/@99xt/ng2-fileupload.svg)](https://www.npmjs.com/package/@99xt/ng2-fileupload)
 [![license](https://img.shields.io/github/license/99xt/ng2-fileupload.svg)](https://github.com/99xt/ng2-fileupload/blob/master/LICENSE)
 
-Simpler file upload implementation for angular2 apps.
+Simpler file upload implementation for angular apps.
 
 ## Installation
 
-To install this library, run:
+To install this library, implement the following:
 
 ```bash
 npm install @99xt/ng2-fileupload --save
 ```
+This is to be updated to ngx-fileupload
 
 ## Usage
 
@@ -24,6 +25,7 @@ import { ExampleComponent } from './example.component';
 
 // Import the library
 import { FileUploadModule } from '@99xt/ng2-fileupload';
+/** This is to be updated to ngx-fileupload*/
 
 @NgModule({
   declarations: [
@@ -78,7 +80,10 @@ example.component.html
 
 ## Contributing Guide
 
-### Setting up the development environment
+### Setting up the Development Environment
+
+Make sure you have the @angular/cli latest version and its [Prerequisites](https://github.com/angular/angular-cli#prerequisites) installed globally.
+For more info Check [Angular CLI](https://github.com/angular/angular-cli).
 
 Clone the repository to your workstation
 
@@ -89,49 +94,34 @@ git clone git@github.com:99xt/ng2-fileupload.git
 Navigate to the project directory 
 
 ```bash
-cd ng2-fileupload
+cd ngx-fileupload
 ```
-
-Install and build the library
-> Generate all `*.js`, `*.d.ts` files
 
 ```bash
 npm install
-npm run build
 ```
 
-You can find the compiled version in the `dist/`
+## Development server
 
-Create a symlink from the `dist` directory to the global `node_modules`
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-```bash
-cd dist
-npm link
-```
+## Code scaffolding
 
-To lint all `*.ts` files:
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-```bash
-$ npm run lint
-```
+## Build
 
-### Run Demo app
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
 
-```
-cd demo
-npm install
-npm start
-```
+## Running unit tests
 
-### Publish to NPM
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-Update the version in `src/package.json`;
+## Running end-to-end tests
 
-```
-npm run build
-npm publish dist
-```
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Before running the tests make sure you are serving the app via `ng serve`.
 
-## License
+## Further help
 
-MIT
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).

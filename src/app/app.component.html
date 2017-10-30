@@ -1,0 +1,14 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to ngx-fileupload!
+  </h1>
+</div>
+<h2>Simpler file upload implementation for angular applications</h2>
+
+<fup-file-upload
+[allowedTypes]="allowedTypes"
+[allowedSize]="allowedSize"
+[multiple]="multiple"
+(onUploadFiles)="onUploadFiles($event)">
+</fup-file-upload>
